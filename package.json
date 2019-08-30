@@ -1,0 +1,41 @@
+{
+  "name": "@iagsti/materialize-pagination",
+  "version": "1.0.0",
+  "description": "Pagination to materialize",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require @babel/register ./test/spec/*.js",
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iagsti/materialize-pagination.git"
+  },
+  "keywords": [
+    "pagination"
+  ],
+  "author": "Marcelo Schneider <schneider.fei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iagsti/materialize-pagination/issues"
+  },
+  "homepage": "https://github.com/iagsti/materialize-pagination#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "expect.js": "^0.3.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^6.1.4",
+    "mocha-webpack": "^1.1.0",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "rambda": "^2.11.1"
+  }
+}
